@@ -11,7 +11,7 @@
 ```swift
 import UIKit
 class AlertPresenter {
-    private weak let viewController: UIViewController?
+    private weak var viewController: UIViewController?
     
     init(viewController: UIViewController?) {
         self.viewController = viewController
